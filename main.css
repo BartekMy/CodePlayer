@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
 }
 
 #navbar {
@@ -8,4 +10,11 @@ body {
     height: 40px;
     background-color: #e0e0e0;
     border-bottom: 1px solid grey;
+}
+
+#logo {
+    padding: 10px 0 0 20px;
+    font-weight: bold;
+    font-size: 120%;
+    float: left;
 }
