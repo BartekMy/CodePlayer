@@ -18,3 +18,12 @@ body {
     font-size: 120%;
     float: left;
 }
+
+#buttonDiv {
+    float: right;
+    padding: 5px 10px 0 0;
+}
+
+#runButton {
+    font-size: 120%;
+}
