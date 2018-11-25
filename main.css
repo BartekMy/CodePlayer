@@ -10,6 +10,7 @@ body {
     height: 40px;
     background-color: #e0e0e0;
     border-bottom: 1px solid grey;
+    padding-top: 10px;
 }
 
 #logo {
@@ -26,4 +27,20 @@ body {
 
 #runButton {
     font-size: 120%;
+}
+
+#toggleList {
+    width: 220px;
+    margin: 0 auto;
+    list-style: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 0px;
+    height: 27px;
+}
+
+#toggleList li {
+    float: left;
+    border-right: 1px solid grey;
+    padding: 5px 7px;
 }
