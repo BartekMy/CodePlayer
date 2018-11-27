@@ -44,3 +44,7 @@ body {
     border-right: 1px solid grey;
     padding: 5px 7px;
 }
+
+.clear {
+    clear: both;
+}
