@@ -48,3 +48,10 @@ body {
 .clear {
     clear: both;
 }
+
+.codeContainer {
+    background-color: aliceblue;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
