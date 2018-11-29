@@ -55,3 +55,13 @@ body {
     width: 50%;
     float: left;
 }
+
+.codeContainer textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-right: 1px solid grey;
+    font-family: monospace;
+    font-size: 90%;
+    padding: 5px;
+}
