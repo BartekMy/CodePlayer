@@ -50,10 +50,10 @@ body {
 }
 
 .codeContainer {
-    background-color: aliceblue;
     height: 100%;
     width: 50%;
     float: left;
+    position: relative;
 }
 
 .codeContainer textarea {
@@ -64,4 +64,10 @@ body {
     font-family: monospace;
     font-size: 90%;
     padding: 5px;
+}
+
+.codeLabel {
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
