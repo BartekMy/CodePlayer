@@ -71,3 +71,15 @@ body {
     right: 10px;
     top: 10px;
 }
+
+#cssContainer, #jsContainer {
+    display: none;
+}
+
+iframe {
+    height: 100%;
+    width: 90%;
+    border: none;
+    left: 20px;
+    position: relative;
+}
