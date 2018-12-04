@@ -42,7 +42,7 @@ body {
 #toggleList li {
     float: left;
     border-right: 1px solid grey;
-    padding: 5px 7px;
+    padding: 5px 7.45px;
 }
 
 .clear {
@@ -82,4 +82,8 @@ iframe {
     border: none;
     left: 20px;
     position: relative;
+}
+
+.selected {
+    background-color: grey;
 }
