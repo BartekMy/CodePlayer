@@ -7,4 +7,8 @@ $(".codeContainer").height(codeContainerHeight + "px");
 
 $(".toggleElement").click(function(){
     $(this).toggleClass("selected");
+    
+    var activeContainer = $(this).html();
+
+    $("#"+activeContainer+"Container").toggle();
 });
