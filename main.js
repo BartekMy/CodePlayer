@@ -11,4 +11,11 @@ $(".toggleElement").click(function(){
     var activeContainer = $(this).html();
 
     $("#"+activeContainer+"Container").toggle();
+    
+    var visibleContainer=$(".codeContainer").filter(function(){
+        return($(this).css("display")!="none");   
+    }).length;
+    
+    var containerWidth=100/visibleContainer;
+    $(".codeContainer").css("width",containerWidth+"%");
 });
