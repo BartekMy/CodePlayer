@@ -19,3 +19,7 @@ $(".toggleElement").click(function(){
     var containerWidth=100/visibleContainer;
     $(".codeContainer").css("width",containerWidth+"%");
 });
+
+$("#runButton").click(function(){
+    $("iframe").contents().find("html").html('<style>'+$("#cssCode").val()+'</style>'+$("#htmlCode").val());
+})
