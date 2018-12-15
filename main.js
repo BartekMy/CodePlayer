@@ -22,4 +22,6 @@ $(".toggleElement").click(function(){
 
 $("#runButton").click(function(){
     $("iframe").contents().find("html").html('<style>'+$("#cssCode").val()+'</style>'+$("#htmlCode").val());
+    
+    eval($("#jsCode").val());
 })
